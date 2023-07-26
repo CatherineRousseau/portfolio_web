@@ -22,8 +22,8 @@
     transition: 2s;
 }
 
-.navbar_right a:hovetr{
-    color: black;
+.navbar_right a:hover{
+    color: darkgrey;
 }
 
 .navbar_left{
@@ -41,4 +41,10 @@
 
 a{
     text-decoration: none;
+}
+
+@media (max-width: 1250px){
+    .navbar_right a {
+        color: #334f69;
+    }
 }
